@@ -1,0 +1,200 @@
+{
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "files.autoSave": "afterDelay",
+  "json.schemas": [
+    
+  ],
+  "workbench.colorCustomizations": {
+    "activityBar.foreground": "#02d3f8",
+    "tab.hoverBorder": "#00bfff",
+    "tab.activeForeground": "#29dd9e",
+    "sideBar.border": "#037a55",
+    "sideBar.foreground": "#29dd9e",
+    "terminalCursor.foreground": "#d6ff83",
+    "editor.background": "#1b202b",
+    "sideBar.background": "#1b202b",
+    "activityBar.background": "#161a24",
+    "terminal.background": "#1b202b",
+    "terminal.foreground": "#9fce90",
+    "terminal.selectionForeground": "#c6b465",
+    "terminal.tab.activeBorder": "#00ddff",
+    "editorCursor.foreground": "#D9E1EF",
+    "titleBar.activeBackground": "#161a24",
+    "panel.background": "#1a1f2e",
+    "statusBar.background": "#161a24",
+    "breadcrumb.background": "#1a1f2e",
+    "activityBar.inactiveForeground": "#9be28b",
+    "menubar.selectionForeground": "#04e1e9"
+  },
+
+  "editor.tokenColorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "keywords": "#4dc9ba",
+      "variables": "#b3e7b9",
+      "numbers": "#f0b898",
+      "functions": "#07df68",
+      "strings": "#c4d1d7", //90D26D,//#98cee9
+      "types": "#e469da",
+      "comments": "#bdb6e4",
+      "textMateRules": [
+        /* {
+            "scope": [
+              "meta.function",
+              "meta.function-call",
+              "meta.type"
+            ],
+            "settings": {
+              "fontStyle": "bold"
+            }
+          } */
+        {
+          "scope": ["string"],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "source.python keyword.control",
+          "settings": {
+            "foreground": "#e7d6ab",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "source.python variable",
+          "settings": {
+            "foreground": "#b3e7b9"
+          }
+        },
+        {
+          "scope": "source.python constant.numeric",
+          "settings": {
+            "foreground": "#f0b898"
+          }
+        },
+        {
+          "scope": "source.python string.quoted",
+          "settings": {
+            "foreground": "#c4d1d7",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "source.python comment.line",
+          "settings": {
+            "foreground": "#bdb6e4",
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": "source.python support.function",
+          "settings": {
+            "foreground": "#07df68"
+          }
+        },
+        {
+          "scope": " meta.function-call.python",
+          "settings": {
+            "foreground": "#afe3a2"
+          }
+        },
+        {
+          "scope": " source.python ",
+          "settings": {
+            "foreground": "#00ddff"
+          }
+        },
+        {
+          "scope": ["keyword"],
+          "settings": {
+            // "fontStyle": "bold"
+          }
+        }
+      ]
+    }
+  },
+
+  "editor.semanticTokenColorCustomizations": {
+    "[One Dark Pro Darker]": {
+      "rules": {
+        "class": "#d1c56c",
+        "annotation": "#c898f5",
+        "parameter": "#AFEDE7"
+      }
+    }
+  },
+
+  "editor.semanticHighlighting.enabled": "configuredByTheme",
+  "editor.fontSize": 14,
+  "terminal.integrated.fontSize": 14,
+  "extensions.autoUpdate": false,
+  "update.enableWindowsBackgroundUpdates": false,
+  "update.mode": "manual",
+  "editor.fontFamily": "Fira code, san serif",
+  "symbols.hidesExplorerArrows": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.fontWeight": "450",
+  "editor.formatOnSave": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "workbench.tree.indent": 15,
+  "editor.minimap.enabled": true,
+  "xml.fileAssociations": [],
+  "java.completion.favoriteStaticMembers": [
+    "org.junit.Assert.*",
+    "org.junit.Assume.*",
+    "org.junit.jupiter.api.Assertions.*",
+    "org.junit.jupiter.api.Assumptions.*",
+    "org.junit.jupiter.api.DynamicContainer.*",
+    "org.junit.jupiter.api.DynamicTest.*",
+    "org.mockito.Mockito.*",
+    "org.mockito.ArgumentMatchers.*",
+    "org.mockito.Answers.*"
+  ],
+
+  "oneDarkPro.color": {
+    "chalky": "#cec766",
+    "coral": "#4dd8ff",
+    "whiskey": "#a8e83a"
+  },
+
+  "editor.guides.bracketPairs": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+
+  "[xml]": {
+    "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+
+  "git.enableSmartCommit": true,
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "helium-icon-theme",
+
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.cursorBlinking": "expand",
+
+  "launch": {
+    "configurations": [],
+    "compounds": []
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "git.autofetch": true,
+  "terminal.integrated.fontFamily": "Fira code, san serif",
+  "window.zoomLevel": -1
+}
